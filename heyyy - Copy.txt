@@ -4,3 +4,61 @@ git add .
 git commit -m 'cmnt'
 git push origin bname
 git 
+
+
+
+Microsoft Windows [Version 10.0.17134.1246] 
+(c) 2018 Microsoft Corporation. All rights reserved. 
+                          C:\Users\pratik>d:                                                                                                                                                                                                                              
+						  D:\>ls                                                                                                                  
+						  'ls' is not recognized as an internal or external command,                                                             
+						  operable program or batch file.                                                                                       
+						  D:\>cd GA                                                                                                                                                                                                                                       
+						  D:\GA>git clone https://github.com/pratikbhoir97/test.git                                                               
+						  Cloning into 'test'...                                                                                                  
+						  remote: Enumerating objects: 3, done.                                                                                   
+						  remote: Counting objects: 100% (3/3), done.                                                                             
+						  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0                                                            
+						  Unpacking objects: 100% (3/3), done.                                                                                                                                                                                                            
+						  D:\GA>cd test                                                                            
+						  D:\GA\test>git add .                                                                                                                                                                                                                            
+						  D:\GA\test>git commit -m 'add text file'                                                                                
+						  error: pathspec 'text' did not match any file(s) known to git                                                           
+						  error: pathspec 'file'' did not match any file(s) known to git                                                                                                                                                                                  
+						  D:\GA\test>git commit                                                                                                   
+						  [master e3b07e4] dd text file                                                                                            
+						  1 file changed, 6 insertions(+)                                                                                         
+						  create mode 100644 heyyy.txt                                                                                                                                                                                                                   
+						  D:\GA\test>git push origin                                                                                                                                                                                                                      
+						  D:\GA\test>git push                                                                                                     
+						  Enumerating objects: 4, done.                                                                                           
+						  Counting objects: 100% (4/4), done.                                                                                     
+						  Delta compression using up to 4 threads                                                                                 
+						  Compressing objects: 100% (3/3), done.                                                                                  
+						  Writing objects: 100% (3/3), 351 bytes | 70.00 KiB/s, done.                                                             
+						  Total 3 (delta 0), reused 0 (delta 0)                                                                                   
+						  To https://github.com/pratikbhoir97/test.git                                                                               
+						  2c0692d..e3b07e4  master -> master                                                                                                                                                                                                           
+						  D:\GA\test>git checkout -b feature/test                                                                                 
+						  Switched to a new branch 'feature/test'                                                                                                                                                                                                         
+						  D:\GA\test>git add .                                                                                                                                                                                                                            
+						  D:\GA\test>git commit                                                                                                   
+						  [feature/test db5a399] dd a new text file                                                                                
+						  1 file changed, 6 insertions(+)                                                                                         
+						  create mode 100644 heyyy - Copy.txt                                                                                                                                                                                                            
+						  D:\GA\test>git push origin feature/test                                                                                 
+						  Enumerating objects: 3, done.                                                                                           
+						  Counting objects: 100% (3/3), done.                                                                                     
+						  Delta compression using up to 4 threads
+						  Writing objects: 100% (2/2), 285 bytes | 71.00 KiB/s, done.                                                             
+						  Total 2 (delta 0), reused 0 (delta 0)
+						  remote: Create a pull request for 'feature/test' on GitHub by visiting:                                                 
+						  remote:      https://github.com/pratikbhoir97/test/pull/new/feature/test                                                
+						  remote:                                                                                                                 
+						  To https://github.com/pratikbhoir97/test.git                                                                             
+						  * [new branch]      feature/test -> feature/test
+						  D:\GA\test> 
+						  
+						  
+						  
+						  
